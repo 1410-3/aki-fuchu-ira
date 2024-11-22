@@ -8,5 +8,14 @@
 3. <code>npm run dev</code>で起動
 4. <code>npm run build</code>でビルド
 
+## これからやること
+- CSSをきれいに設定して彩りをつける
+- すべて英語に切り替える
+- 語学教室のテーブルで重複した内容は結合していい感じにする
+- 詳細画面をつくる
+  - イベントの詳細
+  - archiveの詳細
+- Firebaseにデプロイする
+
 ## 📑 License
 [MIT](http://opensource.org/licenses/MIT)
