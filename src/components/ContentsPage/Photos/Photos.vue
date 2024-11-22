@@ -41,7 +41,7 @@
 
 <script>
 export default {
-  name: "EventPage",
+  name: "PhotosPage",
   data() {
     return {
       events: [
@@ -52,18 +52,18 @@ export default {
         },
         {
           id: 2,
-          title: "2.お好み焼きを食べました！ ",
-          image:"src/assets/okonomiyaki.png"
+          title: "2.紅葉を見に行きました！",
+          image:"src/assets/momiji.png"
         },
         {
           id: 3,
-          title: "3.お好み焼きを食べました！ ",
-          image:"src/assets/okonomiyaki.png"
+          title: "3.藤い屋のもみじまんじゅうを食べました！ ",
+          image:"src/assets/momiji_manju.png"
         },
         {
           id: 4,
-          title: "4.お好み焼きを食べました！ ",
-          image:"src/assets/okonomiyaki.png"
+          title: "4.原爆ドームを見に行きました。",
+          image:"src/assets/war_building_genbaku_dome.png"
         },
       ]
     };

@@ -232,7 +232,7 @@
 
 <script>
 export default {
-  name: "Overview",
+  name: "OverviewPage",
 };
 </script>
 

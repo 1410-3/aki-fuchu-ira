@@ -49,7 +49,7 @@
 
 <script>
 export default {
-  name: "EventPage",
+  name: "EventsPage",
   data() {
     return {
       events: [
@@ -122,6 +122,8 @@ export default {
   },
 };
 </script>
+
+
 
 <style scoped>
 .text-center {
