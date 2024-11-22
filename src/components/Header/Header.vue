@@ -1,6 +1,8 @@
 <template>
   <v-app-bar>
-    <v-app-bar-title>{{ isEnglish ? "Fuchu IRA" : "府中町国際交流協会" }}</v-app-bar-title>
+    <v-app-bar-title>
+      {{ isEnglish ? "Fuchu IRA" : "府中町国際交流協会" }}
+    </v-app-bar-title>
     <v-spacer />
     <v-row
       align-content="center"
@@ -9,7 +11,9 @@
     >
       <v-btn 
         icon 
-        class="menu-btn">
+        class="menu-btn"
+        to="/overview" 
+        tag="router-link">
         <v-icon>mdi-home</v-icon>
         <span class="button-text">{{ menuLabels.overview }}</span>
       </v-btn>
@@ -109,24 +113,21 @@ export default {
 </script>
 
 <style scoped>
-/* 各ボタンの最小幅を設定して統一 */
 .menu-btn {
-  min-width: 140px; /* 必要に応じてサイズを調整 */
+  min-width: 140px;
   display: flex;
   align-items: center;
-  justify-content: start; /* 左寄せでアイコンとテキストを配置 */
+  justify-content: start;
 }
 
-/* ボタン内のテキスト */
 .button-text {
-  margin-left: 8px; /* アイコンと文字の間隔を確保 */
-  font-size: 14px; /* 必要に応じてフォントサイズを調整 */
+  margin-left: 8px; 
+  font-size: 14px;
 }
 
-/* ボタンが被る場合のデザイン調整 */
 @media (max-width: 600px) {
   .menu-btn {
-    min-width: 100px; /* モバイル画面ではボタン幅を狭く */
+    min-width: 100px;
   }
 }
 </style>
