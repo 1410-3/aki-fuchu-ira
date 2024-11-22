@@ -25,7 +25,9 @@
       </v-btn>
       <v-btn 
         icon 
-        class="menu-btn">
+        class="menu-btn"
+        to="/events" 
+        tag="router-link">
         <v-icon>mdi-account</v-icon>
         <span class="button-text">{{ menuLabels.events }}</span>
       </v-btn>
