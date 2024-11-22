@@ -59,7 +59,17 @@
                     <li>府中町に暮らす海外の方々と共に安全でマナーを守りお互いに快適に暮らすことができる地域・街づくりを進めます</li>
                   </ul>
                 </v-card-text>
+              </v-card>
+            </v-col>
+          </v-row>
 
+          <v-row 
+            justify="center" 
+            class="mt-10">
+            <v-col 
+              cols="12" 
+              md="12">
+              <v-card outlined>
                 <v-card-title class="font-weight-bold">
                   Q2.誰が運営しているのでしょうか？
                 </v-card-title>
@@ -79,7 +89,17 @@
                     会員数は  個人会員約200人、法人会員16団体です。※平成26年度
                   </p>
                 </v-card-text>
+              </v-card>
+            </v-col>
+          </v-row>
 
+          <v-row 
+            justify="center" 
+            class="mt-10">
+            <v-col 
+              cols="12" 
+              md="12">
+              <v-card outlined>
                 <v-card-title class="font-weight-bold">
                   Q3.今後取り組もうとしていることはありますでしょうか？
                 </v-card-title>
@@ -101,7 +121,17 @@
                     <li>海外の方々のための生活情報の共有(緊急時にどう行動すれば良いでしょうか？ごみの分別はどうすれば良いでしょうか？など)</li>
                   </ul>
                 </v-card-text>
+              </v-card>
+            </v-col>
+          </v-row>
 
+          <v-row 
+            justify="center" 
+            class="mt-10">
+            <v-col 
+              cols="12" 
+              md="12">
+              <v-card outlined>
                 <v-card-title class="font-weight-bold">
                   Q4.具体的にどんな活動をおこなっているのでしょうか？
                 </v-card-title>
@@ -152,7 +182,17 @@
                     海外の方々の参加も多く、人気のあるイベントです！
                   </p>
                 </v-card-text>
+              </v-card>
+            </v-col>
+          </v-row>
 
+          <v-row 
+            justify="center" 
+            class="mt-10">
+            <v-col 
+              cols="12" 
+              md="12">
+              <v-card outlined>
                 <v-card-title class="font-weight-bold">
                   Q5.会員さんの役割はなにがありますでしょうか？
                 </v-card-title>
@@ -162,7 +202,17 @@
                     一年をとおしてさまざまな国際交流活動に取り組んでおりますので、ぜひご参加ください！
                   </p>
                 </v-card-text>
+              </v-card>
+            </v-col>
+          </v-row>
 
+          <v-row 
+            justify="center" 
+            class="mt-10">
+            <v-col 
+              cols="12" 
+              md="12">
+              <v-card outlined>
                 <v-card-title class="font-weight-bold">
                   Q6.運営費用はどうなっているのでしょうか？
                 </v-card-title>
