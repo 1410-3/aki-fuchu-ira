@@ -69,7 +69,9 @@
           cols="12" 
           md="8">
           <v-card>
-            <v-card-title>お問い合わせ</v-card-title>
+            <v-card-title class="font-weight-bold">
+              お問い合わせ
+            </v-card-title>
             <v-card-text>
               InstagramのDMなどからよろしくお願いいたします。
             </v-card-text>
