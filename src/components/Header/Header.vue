@@ -69,7 +69,9 @@
       </v-btn>
       <v-btn 
         icon 
-        class="menu-btn">
+        class="menu-btn"
+        to="/contact" 
+        tag="router-link">
         <v-icon>mdi-email</v-icon>
         <span class="button-text">{{ menuLabels.contact }}</span>
       </v-btn>
