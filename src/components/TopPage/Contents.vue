@@ -22,9 +22,10 @@
             prepend-icon="mdi-text-box-outline"
             rel="noopener noreferrer"
             rounded="lg"
-            target="_blank"
             title="交流協会について / About the relations association"
             variant="text"
+            to="/overview" 
+            tag="router-link"
           >
             <v-overlay
               opacity=".06"
