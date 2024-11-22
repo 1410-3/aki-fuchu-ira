@@ -33,7 +33,9 @@
       </v-btn>
       <v-btn 
         icon 
-        class="menu-btn">
+        class="menu-btn"
+        to="/photos" 
+        tag="router-link">
         <v-icon>mdi-image</v-icon>
         <span class="button-text">{{ menuLabels.photos }}</span>
       </v-btn>
