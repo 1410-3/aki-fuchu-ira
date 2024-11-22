@@ -64,6 +64,9 @@
                   <strong>電話番号:</strong> 082-287-6340
                 </li>
                 <li>
+                  <strong>FAX:</strong> 082-287-6340
+                </li>
+                <li>
                   <strong>最寄り駅:</strong> JR天神川駅（徒歩10分）
                 </li>
                 <li>

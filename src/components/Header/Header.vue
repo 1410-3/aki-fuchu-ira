@@ -45,7 +45,9 @@
       </v-btn>
       <v-btn 
         icon 
-        class="menu-btn">
+        class="menu-btn"
+        to="/membership" 
+        tag="router-link">
         <v-icon>mdi-account-plus</v-icon>
         <span class="button-text">{{ menuLabels.membership }}</span>
       </v-btn>
