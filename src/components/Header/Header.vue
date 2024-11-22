@@ -1,7 +1,13 @@
 <template>
   <v-app-bar>
     <v-app-bar-title>
-      {{ isEnglish ? "Fuchu IRA" : "府中町国際交流協会" }}
+      <v-btn 
+        text 
+        class="menu-btn"
+        to="/" 
+        tag="router-link">
+        {{ isEnglish ? "Fuchu IRA" : "府中町国際交流協会" }}
+      </v-btn>
     </v-app-bar-title>
     <v-spacer />
     <v-row
@@ -31,7 +37,9 @@
       </v-btn>
       <v-btn 
         icon 
-        class="menu-btn">
+        class="menu-btn"
+        to="/access" 
+        tag="router-link">
         <v-icon>mdi-map-marker</v-icon>
         <span class="button-text">{{ menuLabels.access }}</span>
       </v-btn>
@@ -113,6 +121,10 @@ export default {
 </script>
 
 <style scoped>
+.transparent-btn {
+  padding: 0;
+  min-width: auto;
+}
 .menu-btn {
   min-width: 140px;
   display: flex;
@@ -131,3 +143,4 @@ export default {
   }
 }
 </style>
+
