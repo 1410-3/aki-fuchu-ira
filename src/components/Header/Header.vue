@@ -65,7 +65,9 @@
       </v-btn>
       <v-btn 
         icon 
-        class="menu-btn">
+        class="menu-btn"
+        to="/archive" 
+        tag="router-link">
         <v-icon>mdi-archive</v-icon>
         <span class="button-text">{{ menuLabels.archive }}</span>
       </v-btn>
