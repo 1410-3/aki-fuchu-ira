@@ -20,7 +20,6 @@
             class="py-4"
             color="surface-variant"
             prepend-icon="mdi-text-box-outline"
-            rel="noopener noreferrer"
             rounded="lg"
             title="交流協会について / About the relations association"
             variant="text"
@@ -43,11 +42,11 @@
             class="py-4"
             color="surface-variant"
             prepend-icon="mdi-text-box-outline"
-            rel="noopener noreferrer"
             rounded="lg"
-            target="_blank"
             title="イベント / event"
             variant="text"
+            to="/events" 
+            tag="router-link"
           >
             <v-overlay
               opacity=".06"
@@ -92,6 +91,8 @@
             target="_blank"
             title="会員募集 / Recruitment of members"
             variant="text"
+            to="/membership" 
+            tag="router-link"
           >
             <v-overlay
               opacity=".06"

@@ -57,7 +57,9 @@
       </v-btn>
       <v-btn 
         icon 
-        class="menu-btn">
+        class="menu-btn"
+        to="/class" 
+        tag="router-link">
         <v-icon>mdi-school</v-icon>
         <span class="button-text">{{ menuLabels.class }}</span>
       </v-btn>
