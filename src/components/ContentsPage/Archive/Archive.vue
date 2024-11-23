@@ -31,8 +31,6 @@
               v-for="(item, index) in archives"
               :key="index"
               class="mb-3"
-              link
-              :href="item.link"
             >
               <v-list-item-content>
                 <v-list-item-title class="text-h6">
@@ -44,10 +42,16 @@
                 <v-list-item-subtitle class="mt-2">
                   {{ item.description }}
                 </v-list-item-subtitle>
+                <v-card-actions>
+                  <v-btn 
+                    color="primary" 
+                    outlined 
+                    :href="item.link" 
+                    target="_blank">
+                    詳細を見る
+                  </v-btn>
+                </v-card-actions>
               </v-list-item-content>
-              <v-list-item-icon>
-                <v-icon>mdi-chevron-right</v-icon>
-              </v-list-item-icon>
             </v-list-item>
           </v-list>
         </v-card>
@@ -64,17 +68,17 @@ export default {
         {
           title: "令和５年度(2023/4/1-2024/3/31)活動報告",
           date: "2024-04-01",
-          link: "/activityReport/2023",
+          link: "/activityReports/2023",
         },
         {
           title: "令和4年度(2022/4/1-2023/3/31)活動報告",
           date: "2023-04-01",
-          link: "/activityReport/2022",
+          link: "/activityReports/2022",
         },
         {
           title: "令和3年度(2021/4/1-2022/3/31)活動報告",
           date: "2022-04-01",
-          link: "/activityReport/2021",
+          link: "/activityReports/2021",
         },
       ],
     };

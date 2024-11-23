@@ -59,7 +59,7 @@ export default {
           date: "2024年12月8日1:30PM -3:00PM",
           description:
             "「令和６年度２回目  外国人ゲストによる講演会」があります",
-          // link: "",
+          link: "/eventDetails/lectureByForeignGuests",
         },
         {
           id: 2,
