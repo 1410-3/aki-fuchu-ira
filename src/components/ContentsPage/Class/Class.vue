@@ -1,20 +1,18 @@
 <template>
   <v-container class="py-5">
     <!-- ページタイトル -->
-    <v-row justify="center">
+    <v-row 
+      justify="center"
+      class="mb-6">
       <v-col 
-        cols="12"
+        cols="12" 
         md="8">
-        <v-card 
-          class="pa-5"
-          elevation="3">
-          <v-card-title class="text-h5">
-            語学クラスのご案内
-          </v-card-title>
-          <v-card-subtitle>
-            地域住民向けに提供される2024年の語学クラス一覧です。
-          </v-card-subtitle>
-        </v-card>
+        <h1 class="text-center font-weight-bold">
+          語学クラスのご案内
+        </h1>
+        <p class="text-center">
+          地域住民向けに提供される2024年の語学クラス一覧です。
+        </p>
       </v-col>
     </v-row>
     <v-table>
