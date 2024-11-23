@@ -1,43 +1,54 @@
 <template>
   <v-container class="py-5">
-    <v-row justify="center">
+    <v-row 
+      justify="center"
+      class="mb-6">
       <v-col 
         cols="12" 
         md="8">
-        <v-card class="pa-5">
-          <v-card-title class="text-h5">
-            アーカイブ一覧
-          </v-card-title>
-          <v-divider />
-
-          <!-- アーカイブリスト -->
-          <v-list>
-            <v-list-item
-              v-for="(item, index) in archives"
-              :key="index"
-              class="mb-3"
-              link
-              :href="item.link"
-            >
-              <v-list-item-content>
-                <v-list-item-title class="text-h6">
-                  {{ item.title }}
-                </v-list-item-title>
-                <v-list-item-subtitle class="text-caption text--secondary">
-                  {{ formatDate(item.date) }}
-                </v-list-item-subtitle>
-                <v-list-item-subtitle class="mt-2">
-                  {{ item.description }}
-                </v-list-item-subtitle>
-              </v-list-item-content>
-              <v-list-item-icon>
-                <v-icon>mdi-chevron-right</v-icon>
-              </v-list-item-icon>
-            </v-list-item>
-          </v-list>
-        </v-card>
+        <h1 class="text-center font-weight-bold">
+          アーカイブ一覧
+        </h1>
+        <p class="text-center">
+          過去の活動記録を確認できます。
+        </p>
       </v-col>
     </v-row>
+    <v-col 
+      cols="12" 
+      md="12">
+      <v-card class="pa-5">
+        <v-card-title class="text-h5">
+          アーカイブ一覧
+        </v-card-title>
+        <v-divider />
+
+        <v-list>
+          <v-list-item
+            v-for="(item, index) in archives"
+            :key="index"
+            class="mb-3"
+            link
+            :href="item.link"
+          >
+            <v-list-item-content>
+              <v-list-item-title class="text-h6">
+                {{ item.title }}
+              </v-list-item-title>
+              <v-list-item-subtitle class="text-caption text--secondary">
+                {{ formatDate(item.date) }}
+              </v-list-item-subtitle>
+              <v-list-item-subtitle class="mt-2">
+                {{ item.description }}
+              </v-list-item-subtitle>
+            </v-list-item-content>
+            <v-list-item-icon>
+              <v-icon>mdi-chevron-right</v-icon>
+            </v-list-item-icon>
+          </v-list-item>
+        </v-list>
+      </v-card>
+    </v-col>
   </v-container>
 </template>
  

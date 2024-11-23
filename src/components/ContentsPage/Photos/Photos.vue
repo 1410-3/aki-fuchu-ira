@@ -11,6 +11,9 @@
           <h1 class="text-center font-weight-bold">
             Photos
           </h1>
+          <p class="text-center">
+            各イベントなどのお写真です。
+          </p>
         </v-col>
       </v-row>
 
