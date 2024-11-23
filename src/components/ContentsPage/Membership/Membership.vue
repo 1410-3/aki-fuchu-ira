@@ -11,6 +11,15 @@
           <h1 class="text-center font-weight-bold">
             会員さんを募集しています！
           </h1>
+          <p class="text-center">
+            貢献してくださる会員さんを随時募集しています。
+          </p>
+        </v-col>
+      </v-row>
+      <v-row justify="center">
+        <v-col 
+          cols="12" 
+          md="8">
           <v-card outlined>
             <v-card-title class="font-weight-bold">
               会員の種類と年会費

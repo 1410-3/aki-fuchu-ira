@@ -21,7 +21,7 @@
             class="mt-10">
             <v-col 
               cols="12" 
-              md="12">
+              md="8">
               <v-card>
                 <v-card-title class="font-weight-bold">
                   みんなと気軽に国際交流を楽しみましょう！！
@@ -42,7 +42,7 @@
             class="mt-10">
             <v-col 
               cols="12" 
-              md="12">
+              md="8">
               <v-card outlined>
                 <v-card-title class="font-weight-bold">
                   Q1.府中町国際交流協会って何のためにあるのでしょうか？
@@ -68,7 +68,7 @@
             class="mt-10">
             <v-col 
               cols="12" 
-              md="12">
+              md="8">
               <v-card outlined>
                 <v-card-title class="font-weight-bold">
                   Q2.誰が運営しているのでしょうか？
@@ -98,7 +98,7 @@
             class="mt-10">
             <v-col 
               cols="12" 
-              md="12">
+              md="8">
               <v-card outlined>
                 <v-card-title class="font-weight-bold">
                   Q3.今後取り組もうとしていることはありますでしょうか？
@@ -130,7 +130,7 @@
             class="mt-10">
             <v-col 
               cols="12" 
-              md="12">
+              md="8">
               <v-card outlined>
                 <v-card-title class="font-weight-bold">
                   Q4.具体的にどんな活動をおこなっているのでしょうか？
@@ -191,7 +191,7 @@
             class="mt-10">
             <v-col 
               cols="12" 
-              md="12">
+              md="8">
               <v-card outlined>
                 <v-card-title class="font-weight-bold">
                   Q5.会員さんの役割はなにがありますでしょうか？
@@ -211,7 +211,7 @@
             class="mt-10">
             <v-col 
               cols="12" 
-              md="12">
+              md="8">
               <v-card outlined>
                 <v-card-title class="font-weight-bold">
                   Q6.運営費用はどうなっているのでしょうか？
