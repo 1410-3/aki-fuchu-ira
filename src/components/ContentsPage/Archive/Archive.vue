@@ -64,17 +64,17 @@ export default {
         {
           title: "令和５年度(2023/4/1-2024/3/31)活動報告",
           date: "2024-04-01",
-          link: "/ActivityRport/2023",
+          link: "/activityReport/2023",
         },
         {
           title: "令和4年度(2022/4/1-2023/3/31)活動報告",
           date: "2023-04-01",
-          link: "/ActivityRport/2022",
+          link: "/activityReport/2022",
         },
         {
           title: "令和3年度(2021/4/1-2022/3/31)活動報告",
           date: "2022-04-01",
-          link: "/ActivityRport/2021",
+          link: "/activityReport/2021",
         },
       ],
     };
