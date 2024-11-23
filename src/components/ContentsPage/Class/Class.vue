@@ -15,44 +15,53 @@
         </p>
       </v-col>
     </v-row>
-    <v-table>
-      <thead>
-        <tr>
-          <th class="text-left">
-            区分
-          </th>
-          <th class="text-left">
-            入門英会話教室
-          </th>
-          <th class="text-left">
-            初級英会話教室
-          </th>
-          <th class="text-left">
-            中級英会話教室
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr
-          v-for="content in contents"
-          :key="content.name"
-        >
-          <td>
-            {{ content.name }}
-          </td>
-          <td>
-            {{ content.introduction }}
-          </td>
-          <td>
-            {{ content.beginner }}
-          </td>
-          <td>
-            {{ content.intermediate }}
-          </td>
-        </tr>
-      </tbody>
-    </v-table>
-    <br>
+    <v-row 
+      justify="center"
+      class="mb-6">
+      <v-col 
+        cols="12" 
+        md="8">
+        <v-card class="pa-5">
+          <v-table>
+            <thead>
+              <tr>
+                <th class="text-left">
+                  区分
+                </th>
+                <th class="text-left">
+                  入門英会話教室
+                </th>
+                <th class="text-left">
+                  初級英会話教室
+                </th>
+                <th class="text-left">
+                  中級英会話教室
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                v-for="content in contents"
+                :key="content.name"
+              >
+                <td>
+                  {{ content.name }}
+                </td>
+                <td>
+                  {{ content.introduction }}
+                </td>
+                <td>
+                  {{ content.beginner }}
+                </td>
+                <td>
+                  {{ content.intermediate }}
+                </td>
+              </tr>
+            </tbody>
+          </v-table>
+        </v-card>
+      </v-col>
+    </v-row>
     <v-row 
       justify="center" 
       class="mt-5">
