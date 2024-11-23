@@ -88,7 +88,6 @@
             color="surface-variant"
             prepend-icon="mdi-widgets-outline"
             rounded="lg"
-            target="_blank"
             title="会員募集 / Recruitment of members"
             variant="text"
             to="/membership" 
@@ -111,9 +110,10 @@
             color="surface-variant"
             prepend-icon="mdi-account-group-outline"
             rounded="lg"
-            target="_blank"
             title="語学教室 / language class"
             variant="text"
+            to="/class" 
+            tag="router-link"
           >
             <v-overlay
               opacity=".06"
@@ -132,9 +132,10 @@
             color="surface-variant"
             prepend-icon="mdi-account-group-outline"
             rounded="lg"
-            target="_blank"
             title="アーカイブ / archive"
             variant="text"
+            to="/archive" 
+            tag="router-link"
           >
             <v-overlay
               opacity=".06"
