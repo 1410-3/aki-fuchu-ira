@@ -16,6 +16,3 @@
 - すべて英語に切り替える
 - フォルダ構成とかいい感じにする
 - Firebaseにデプロイする
-
-## 📑 License
-[MIT](http://opensource.org/licenses/MIT)
