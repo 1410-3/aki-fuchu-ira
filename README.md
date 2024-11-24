@@ -7,8 +7,9 @@
 2. <code>npm --version</code>で数字がでたら多分だいじょうぶ。
 3. <code>npm i</code>で必要なパッケージをインストールできるよ。
 4. <code>npm run dev</code>で起動できるよ。
-5. <code>http://localhost:3000/</code>にアクセスしてみよう。
-6. <code>npm run build</code>でビルドです。
+5. <code>npm run test</code>でテストコードを導入したのでテストができるよ。
+6. <code>http://localhost:3000/</code>にアクセスしてみよう。
+7. <code>npm run build</code>でビルドです。
 
 ## これからやること
 - CSSをきれいに設定して彩りをつける
