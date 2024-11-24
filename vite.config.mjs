@@ -36,7 +36,8 @@ export default defineConfig({
   define: { 'process.env': {} },
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      "\\.(css|scss|sass)$": "./tests/__mocks__/styleMock.js",
     },
     extensions: [
       '.js',
@@ -57,5 +58,13 @@ export default defineConfig({
         api: 'modern-compiler',
       },
     },
+  },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    include: ['**/*.spec.js'],
+    deps: {
+      inline: ["vuetify"],
+    }
   },
 })
