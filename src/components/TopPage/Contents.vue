@@ -63,7 +63,7 @@
             append-icon="mdi-open-in-new"
             class="py-4"
             color="surface-variant"
-            href="https://www.instagram.com/international.fuchu/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
+            href="https://www.instagram.com/international.fuchu/"
             prepend-icon="mdi-star-circle-outline"
             rel="noopener noreferrer"
             rounded="lg"

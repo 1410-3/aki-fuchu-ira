@@ -12,7 +12,7 @@
               </h1>
               <p class="text-center">
                 <a 
-                  href="https://www.instagram.com/international.fuchu/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
+                  href="https://www.instagram.com/international.fuchu/"
                   rel="noopener noreferrer">
                   InstagramのDM
                 </a>
