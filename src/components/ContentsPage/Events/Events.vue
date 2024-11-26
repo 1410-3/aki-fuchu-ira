@@ -2,12 +2,8 @@
   <v-app>
     <v-container>
       <!-- ページタイトル -->
-      <v-row 
-        justify="center"
-        class="mb-6">
-        <v-col 
-          cols="12" 
-          md="8">
+      <v-row justify="center" class="mb-6">
+        <v-col cols="12" md="8">
           <h1 class="text-center font-weight-bold">
             イベント情報
           </h1>
@@ -19,12 +15,7 @@
 
       <!-- イベントリスト -->
       <v-row>
-        <v-col 
-          v-for="event in events" 
-          :key="event.id"
-          cols="12"
-          sm="6" 
-          md="4">
+        <v-col v-for="event in events" :key="event.id" cols="12" sm="6" md="4">
           <v-card outlined>
             <v-card-title class="font-weight-bold">
               {{ event.title }}
@@ -32,11 +23,7 @@
             <v-card-subtitle>{{ event.date }}</v-card-subtitle>
             <v-card-text>{{ event.description }}</v-card-text>
             <v-card-actions>
-              <v-btn 
-                color="primary" 
-                outlined 
-                :href="event.link" 
-                target="_blank">
+              <v-btn color="primary" outlined :href="event.link" target="_blank">
                 詳細を見る
               </v-btn>
             </v-card-actions>
@@ -129,6 +116,7 @@ export default {
 .text-center {
   text-align: center;
 }
+
 .mb-6 {
   margin-bottom: 24px;
 }

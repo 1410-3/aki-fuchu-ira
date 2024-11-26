@@ -1,12 +1,8 @@
 <template>
   <v-app>
     <v-container>
-      <v-row 
-        justify="center" 
-        class="mb-6">
-        <v-col 
-          cols="12" 
-          md="8">
+      <v-row justify="center" class="mb-6">
+        <v-col cols="12" md="8">
           <h1 class="text-center font-weight-bold">
             2021年、活動報告
           </h1>
@@ -17,9 +13,7 @@
       </v-row>
 
       <v-row justify="center">
-        <v-col 
-          cols="12" 
-          md="8">
+        <v-col cols="12" md="8">
           <v-card outlined>
             <v-card-title class="font-weight-bold">
               活動
@@ -44,9 +38,11 @@ export default {
 .text-center {
   text-align: center;
 }
+
 .mb-6 {
   margin-bottom: 24px;
 }
+
 .mt-6 {
   margin-top: 24px;
 }

@@ -2,12 +2,8 @@
   <v-app>
     <v-container>
       <!-- ページタイトル -->
-      <v-row 
-        justify="center" 
-        class="mb-6">
-        <v-col 
-          cols="12" 
-          md="8">
+      <v-row justify="center" class="mb-6">
+        <v-col cols="12" md="8">
           <h1 class="text-center font-weight-bold">
             アクセス
           </h1>
@@ -20,9 +16,7 @@
 
       <!-- Googleマップセクション -->
       <v-row justify="center">
-        <v-col 
-          cols="12"
-          md="8">
+        <v-col cols="12" md="8">
           <v-card>
             <v-card-title class="font-weight-bold">
               府中町国際交流協会の場所
@@ -30,14 +24,9 @@
             <v-card-text>
               <div class="map-container">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.126776965908!2d132.5024507!3d34.3937776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355a9f73d5d8579d%3A0x7f422b57ce00eef!2z5a6J6Iq45bqc5Lit55Sf5rav5a2m57-S44K744Oz44K_44O844GP44GZ44Gu44GN44OX44Op44K2!5e0!3m2!1sja!2sjp!4v1690031234567!5m2!1sja!2sjp" 
-                  width="100%"
-                  height="400"
-                  style="border:0;"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                />
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.126776965908!2d132.5024507!3d34.3937776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355a9f73d5d8579d%3A0x7f422b57ce00eef!2z5a6J6Iq45bqc5Lit55Sf5rav5a2m57-S44K744Oz44K_44O844GP44GZ44Gu44GN44OX44Op44K2!5e0!3m2!1sja!2sjp!4v1690031234567!5m2!1sja!2sjp"
+                  width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade" />
               </div>
             </v-card-text>
           </v-card>
@@ -45,12 +34,8 @@
       </v-row>
 
       <!-- アクセス情報セクション -->
-      <v-row 
-        justify="center"
-        class="mt-6">
-        <v-col 
-          cols="12"
-          md="8">
+      <v-row justify="center" class="mt-6">
+        <v-col cols="12" md="8">
           <v-card>
             <v-card-title class="font-weight-bold">
               住所とアクセス情報
@@ -99,13 +84,17 @@ export default {
 .text-center {
   text-align: center;
 }
+
 .mb-6 {
   margin-bottom: 24px;
 }
+
 .mt-6 {
   margin-top: 24px;
 }
+
 .map-container iframe {
-  border-radius: 8px; /* マップの角を少し丸める */
+  border-radius: 8px;
+  /* マップの角を少し丸める */
 }
 </style>

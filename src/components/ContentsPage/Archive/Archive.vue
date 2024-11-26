@@ -1,11 +1,7 @@
 <template>
   <v-container class="py-5">
-    <v-row 
-      justify="center"
-      class="mb-6">
-      <v-col 
-        cols="12" 
-        md="8">
+    <v-row justify="center" class="mb-6">
+      <v-col cols="12" md="8">
         <h1 class="text-center font-weight-bold">
           アーカイブ一覧
         </h1>
@@ -14,12 +10,8 @@
         </p>
       </v-col>
     </v-row>
-    <v-row 
-      justify="center"
-      class="mb-6">
-      <v-col 
-        cols="12" 
-        md="8">
+    <v-row justify="center" class="mb-6">
+      <v-col cols="12" md="8">
         <v-card class="pa-5">
           <v-card-title class="text-h5">
             アーカイブ一覧
@@ -27,11 +19,7 @@
           <v-divider />
 
           <v-list>
-            <v-list-item
-              v-for="(item, index) in archives"
-              :key="index"
-              class="mb-3"
-            >
+            <v-list-item v-for="(item, index) in archives" :key="index" class="mb-3">
               <v-list-item-content>
                 <v-list-item-title class="text-h6">
                   {{ item.title }}
@@ -43,11 +31,7 @@
                   {{ item.description }}
                 </v-list-item-subtitle>
                 <v-card-actions>
-                  <v-btn 
-                    color="primary" 
-                    outlined 
-                    :href="item.link" 
-                    target="_blank">
+                  <v-btn color="primary" outlined :href="item.link" target="_blank">
                     詳細を見る
                   </v-btn>
                 </v-card-actions>
@@ -59,7 +43,7 @@
     </v-row>
   </v-container>
 </template>
- 
+
 <script>
 export default {
   data() {

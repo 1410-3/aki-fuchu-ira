@@ -4,9 +4,7 @@
       <v-main>
         <v-container>
           <v-row justify="center">
-            <v-col 
-              cols="12"
-              md="8">
+            <v-col cols="12" md="8">
               <h1 class="text-center font-weight-bold">
                 府中町国際交流協会とは？
               </h1>
@@ -16,12 +14,8 @@
             </v-col>
           </v-row>
 
-          <v-row 
-            justify="center" 
-            class="mt-10">
-            <v-col 
-              cols="12" 
-              md="8">
+          <v-row justify="center" class="mt-10">
+            <v-col cols="12" md="8">
               <v-card>
                 <v-card-title class="font-weight-bold">
                   みんなと気軽に国際交流を楽しみましょう！！
@@ -37,12 +31,8 @@
             </v-col>
           </v-row>
 
-          <v-row 
-            justify="center" 
-            class="mt-10">
-            <v-col 
-              cols="12" 
-              md="8">
+          <v-row justify="center" class="mt-10">
+            <v-col cols="12" md="8">
               <v-card outlined>
                 <v-card-title class="font-weight-bold">
                   Q1.府中町国際交流協会って何のためにあるのでしょうか？
@@ -63,12 +53,8 @@
             </v-col>
           </v-row>
 
-          <v-row 
-            justify="center" 
-            class="mt-10">
-            <v-col 
-              cols="12" 
-              md="8">
+          <v-row justify="center" class="mt-10">
+            <v-col cols="12" md="8">
               <v-card outlined>
                 <v-card-title class="font-weight-bold">
                   Q2.誰が運営しているのでしょうか？
@@ -86,19 +72,15 @@
                   <br>
                   <p>
                     すべてボランティアのみなさまによって支えられています。<br>
-                    会員数は  個人会員約200人、法人会員16団体です。※平成26年度
+                    会員数は 個人会員約200人、法人会員16団体です。※平成26年度
                   </p>
                 </v-card-text>
               </v-card>
             </v-col>
           </v-row>
 
-          <v-row 
-            justify="center" 
-            class="mt-10">
-            <v-col 
-              cols="12" 
-              md="8">
+          <v-row justify="center" class="mt-10">
+            <v-col cols="12" md="8">
               <v-card outlined>
                 <v-card-title class="font-weight-bold">
                   Q3.今後取り組もうとしていることはありますでしょうか？
@@ -125,12 +107,8 @@
             </v-col>
           </v-row>
 
-          <v-row 
-            justify="center" 
-            class="mt-10">
-            <v-col 
-              cols="12" 
-              md="8">
+          <v-row justify="center" class="mt-10">
+            <v-col cols="12" md="8">
               <v-card outlined>
                 <v-card-title class="font-weight-bold">
                   Q4.具体的にどんな活動をおこなっているのでしょうか？
@@ -165,14 +143,14 @@
                   <br>
                   <p>
                     語学教室の開催！<br>
-                    こどもたちのための英会話教室をはじめ、  英会話教室、中国語教室、海外の方々のための日本語教室を開いており、会員さんからは好評です！
+                    こどもたちのための英会話教室をはじめ、 英会話教室、中国語教室、海外の方々のための日本語教室を開いており、会員さんからは好評です！
                   </p>
                   <br>
                   <br>
                   <p>
                     中学生英語暗唱大会・海外の方々の日本語スピーチコンテスト<br>
                     中学生のかたがたは、英語の教科書のなかから一単元を選択し、暗唱します！<br>
-                    海外の方々は、日本人の考え方や生活習慣の違いなどについて、  発表します！
+                    海外の方々は、日本人の考え方や生活習慣の違いなどについて、 発表します！
                   </p>
                   <br>
                   <br>
@@ -186,12 +164,8 @@
             </v-col>
           </v-row>
 
-          <v-row 
-            justify="center" 
-            class="mt-10">
-            <v-col 
-              cols="12" 
-              md="8">
+          <v-row justify="center" class="mt-10">
+            <v-col cols="12" md="8">
               <v-card outlined>
                 <v-card-title class="font-weight-bold">
                   Q5.会員さんの役割はなにがありますでしょうか？
@@ -206,12 +180,8 @@
             </v-col>
           </v-row>
 
-          <v-row 
-            justify="center" 
-            class="mt-10">
-            <v-col 
-              cols="12" 
-              md="8">
+          <v-row justify="center" class="mt-10">
+            <v-col cols="12" md="8">
               <v-card outlined>
                 <v-card-title class="font-weight-bold">
                   Q6.運営費用はどうなっているのでしょうか？
