@@ -2,12 +2,8 @@
   <v-app>
     <v-container>
       <!-- ページタイトル -->
-      <v-row 
-        justify="center" 
-        class="mb-6">
-        <v-col 
-          cols="12" 
-          md="8">
+      <v-row justify="center" class="mb-6">
+        <v-col cols="12" md="8">
           <h1 class="text-center font-weight-bold">
             会員さんを募集しています！
           </h1>
@@ -17,9 +13,7 @@
         </v-col>
       </v-row>
       <v-row justify="center">
-        <v-col 
-          cols="12" 
-          md="8">
+        <v-col cols="12" md="8">
           <v-card outlined>
             <v-card-title class="font-weight-bold">
               会員の種類と年会費
@@ -44,9 +38,7 @@
       </v-row>
 
       <v-row justify="center">
-        <v-col 
-          cols="12" 
-          md="8">
+        <v-col cols="12" md="8">
           <v-card outlined>
             <v-card-title class="font-weight-bold">
               会員の種類と年会費
@@ -71,12 +63,8 @@
         </v-col>
       </v-row>
 
-      <v-row 
-        justify="center" 
-        class="mt-6">
-        <v-col 
-          cols="12" 
-          md="8">
+      <v-row justify="center" class="mt-6">
+        <v-col cols="12" md="8">
           <v-card>
             <v-card-title class="font-weight-bold">
               お問い合わせ
@@ -101,9 +89,11 @@ export default {
 .text-center {
   text-align: center;
 }
+
 .mb-6 {
   margin-bottom: 24px;
 }
+
 .mt-6 {
   margin-top: 24px;
 }

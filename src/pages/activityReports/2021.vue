@@ -1,7 +1,7 @@
 <template>
-  <Header /> 
+  <Header />
   <ActivityReport2021 />
-</template> 
+</template>
 
 <script setup>
 import Header from '@/components/Header/Header.vue';

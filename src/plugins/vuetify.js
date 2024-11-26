@@ -5,20 +5,20 @@
  */
 
 // Styles
-import '@mdi/font/css/materialdesignicons.css'
-import 'vuetify/styles'
+import "@mdi/font/css/materialdesignicons.css";
+import "vuetify/styles";
 
-import { createVuetify } from 'vuetify';
+import { createVuetify } from "vuetify";
 
 const vuetify = createVuetify({
   theme: {
-    defaultTheme: 'customTheme',
+    defaultTheme: "customTheme",
     themes: {
       customTheme: {
         dark: false, // ライトテーマ
         variables: {
           // 背景にカスタムCSSを使用
-          'background-base': 'linear-gradient(135deg, #42a5f5, #7e57c2)',
+          "background-base": "linear-gradient(135deg, #42a5f5, #7e57c2)",
         },
       },
     },

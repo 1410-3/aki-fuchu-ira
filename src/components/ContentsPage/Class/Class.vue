@@ -1,12 +1,8 @@
 <template>
   <v-container class="py-5">
     <!-- ページタイトル -->
-    <v-row 
-      justify="center"
-      class="mb-6">
-      <v-col 
-        cols="12" 
-        md="8">
+    <v-row justify="center" class="mb-6">
+      <v-col cols="12" md="8">
         <h1 class="text-center font-weight-bold">
           語学クラスのご案内
         </h1>
@@ -16,12 +12,8 @@
       </v-col>
     </v-row>
 
-    <v-row 
-      justify="center" 
-      class="mb-6">
-      <v-col 
-        cols="12" 
-        md="8">
+    <v-row justify="center" class="mb-6">
+      <v-col cols="12" md="8">
         <v-card class="pa-5">
           <h2 class="text-center font-weight-bold mb-4">
             各クラスの説明
@@ -44,9 +36,7 @@
               </tr>
             </thead>
             <tbody>
-              <tr 
-                v-for="content in specificContents" 
-                :key="content.name">
+              <tr v-for="content in specificContents" :key="content.name">
                 <td>{{ content.name }}</td>
                 <td>{{ content.introduction }}</td>
                 <td>{{ content.beginner }}</td>
@@ -58,21 +48,15 @@
       </v-col>
     </v-row>
 
-    <v-row 
-      justify="center"
-      class="mb-6">
-      <v-col 
-        cols="12" 
-        md="8">
+    <v-row justify="center" class="mb-6">
+      <v-col cols="12" md="8">
         <v-card class="pa-5">
           <h2 class="text-center font-weight-bold mb-4">
             共通事項
           </h2>
           <v-table>
             <tbody>
-              <tr 
-                v-for="content in commonContents" 
-                :key="content.name">
+              <tr v-for="content in commonContents" :key="content.name">
                 <td class="font-weight-bold">
                   {{ content.name }}
                 </td>
@@ -86,15 +70,9 @@
       </v-col>
     </v-row>
 
-    <v-row 
-      justify="center" 
-      class="mt-5">
-      <v-col 
-        cols="12" 
-        md="8">
-        <v-alert 
-          type="info" 
-          dense>
+    <v-row justify="center" class="mt-5">
+      <v-col cols="12" md="8">
+        <v-alert type="info" dense>
           ☆日本語教室毎月第 1～4 日曜日の 10:30～12:00、安芸府中商工センターにおいて外国の方を対象に日本語教室を開催しています。<br>
           受講料は無料です。日本語指導ボランティアも大歓迎です。<br>
           お知り合いの外国の方がいらっしゃいましたら、是非、日本語教室をご紹介下さい。
@@ -113,13 +91,13 @@ export default {
         {
           name: "開催日",
           introduction: "4月4日（木）～ 第1～第4木曜（月4回）",
-          beginner:     "4月9日（火）～ 第2･4火曜日（月2回）",
+          beginner: "4月9日（火）～ 第2･4火曜日（月2回）",
           intermediate: "4月2日（火）～ 第1･3火曜日（月2回）",
         },
         {
           name: "お時間",
           introduction: "19時15分 ～ 20時15分（1時間）",
-          beginner:     "18時30分 ～ 20時30分（2時間）",
+          beginner: "18時30分 ～ 20時30分（2時間）",
           intermediate: "18時30分 ～ 20時30分（2時間）",
         },
       ],
