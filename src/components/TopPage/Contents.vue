@@ -7,7 +7,11 @@
           International Relations Association!!
         </h1>
         <v-card outlined>
-          <v-img :src=path />
+          <v-carousel hide-delimiters cycle height="500">
+            <v-carousel-item v-for="(image, index) in images" :key="index">
+              <v-img :src="image" contain></v-img>
+            </v-carousel-item>
+          </v-carousel>
         </v-card>
       </div>
     </v-responsive>
@@ -19,7 +23,11 @@ export default {
   name: "ContentsPage",
   data() {
     return {
-      path: new URL('@/assets/worldPiece.webp', import.meta.url).href
+      images: [
+        new URL('@/assets/worldPiece.webp', import.meta.url).href,
+        new URL('@/assets/momiji.png', import.meta.url).href,
+        new URL('@/assets/okonomiyaki.png', import.meta.url).href,
+      ]
     };
   }
 }
