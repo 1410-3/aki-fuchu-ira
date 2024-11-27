@@ -6,6 +6,7 @@
           Welcome To Fuchu <br>
           International Relations Association!!
         </h1>
+        <br />
         <v-card outlined>
           <v-carousel hide-delimiters cycle height="500">
             <v-carousel-item v-for="(image, index) in images" :key="index">
